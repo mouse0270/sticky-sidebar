@@ -1,0 +1,38 @@
+{
+  "name": "module",
+  "title": "New Module",
+  "description": "",
+  "version": "This is auto replaced",
+  "library": "false",
+  "manifestPlusVersion": "1.0.0",
+  "minimumCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.8",
+  "authors": [
+    {
+      "name": "Mouse0270",
+      "url": "https://www.patreon.com/mouse0270",
+      "discord": "mouse0270#0270"
+    }
+  ],
+  "dependencies": [ "mouses-library"],
+  "conflicts": [ ],
+  "esmodules": [
+    "/scripts/module.js"
+  ],
+  "scripts": [
+    "/scripts/lib/lib.js"
+  ],
+  "styles": [
+    "/styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "url": "This is auto replaced",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced"
+}
