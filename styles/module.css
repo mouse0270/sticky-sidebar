@@ -1,0 +1,26 @@
+.tab[data-tab].sticky.flexcol {
+	display: flex;
+	flex: 0 0 !important;
+    order: 10;
+	flex-basis: 300px !important;
+}
+.tab[data-tab="chat"].sticky.flexcol {
+    order: 20;
+}
+.tab[data-tab].sticky.active.flexcol {
+	flex: 1 !important;
+	order: 1;
+}
+
+.tab[data-tab].sticky.flexcol .ss-resizer {
+	background-color: var(--palette-app-background-dark, #000);
+	content: '';
+	cursor: ns-resize;
+	flex: 0 1 !important;
+	min-height: 10px;
+	text-align: center;
+	width: 100%;
+}
+.tab[data-tab].sticky.active.flexcol .ss-resizer {
+	display: none !important;
+}

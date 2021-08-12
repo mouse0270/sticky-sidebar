@@ -1,7 +1,7 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "sticky-sidebar",
+  "title": "Sticky Sidebar",
+  "description": "A foundry module that lets you stick sidebar tabs in the sidebar to always display",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -14,13 +14,13 @@
       "discord": "mouse0270#0270"
     }
   ],
-  "dependencies": [ "mouses-library"],
+  "dependencies": [{ "name": "mouses-library" }],
   "conflicts": [ ],
   "esmodules": [
     "/scripts/module.js"
   ],
   "scripts": [
-    "/scripts/lib/lib.js"
+    "/scripts/hooks.js"
   ],
   "styles": [
     "/styles/module.css"
