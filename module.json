@@ -6,7 +6,7 @@
   "library": "false",
   "manifestPlusVersion": "1.0.0",
   "minimumCoreVersion": "0.8.8",
-  "compatibleCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.9",
   "authors": [
     {
       "name": "Mouse0270",
@@ -14,17 +14,11 @@
       "discord": "mouse0270#0270"
     }
   ],
-  "dependencies": [{ "name": "mouses-library" }],
+  "dependencies": [ ],
   "conflicts": [ ],
-  "esmodules": [
-    "/scripts/module.js"
-  ],
-  "scripts": [
-    "/scripts/hooks.js"
-  ],
-  "styles": [
-    "/styles/module.css"
-  ],
+  "esmodules": [ "/scripts/_init.mjs" ],
+  "scripts": [ ],
+  "styles": [  "/styles/module.css" ],
   "languages": [
     {
       "lang": "en",

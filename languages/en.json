@@ -5,6 +5,9 @@
             "stickyOption1.hint": "Choose which tab you would like to always be visible in the sidebar",
             "stickyOption2.name": "Tab to make Sticky",
             "stickyOption2.hint": "Choose which tab you would like to always be visible in the sidebar"
+        },
+        "SIDEBAR": {
+            "none": "None"
         }
     }
 }
