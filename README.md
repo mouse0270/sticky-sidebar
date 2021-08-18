@@ -3,6 +3,9 @@ Sticky Sidebar lets you pin up two sidebar tabs to be always visible in the side
 
 You can even resize the sticky items per tab, so if you need to see more of your chat bar on the combat encounter then you do on others sidebar tabs, just grab the bar and drag it up. It will remember its position.
 
+![unknown](https://user-images.githubusercontent.com/564874/129951903-55e8a194-e8c2-4d32-941b-29d5b8d78241.png)
+
+
 ### Side Note
 Sticky sidebar also includes a patch for foundry that will be included in a later version. Whats the bug... In core foundry as of 08/18/2021 if you collapse the sidebar and then left click on the chat tab, it will pop out the chat tab. However, if you close that pop out and then try clicking on chat again, it will not work. If you have lib-wrapper installed, sticky sidebar fixes this.
 
